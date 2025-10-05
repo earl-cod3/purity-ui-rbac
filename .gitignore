@@ -1,27 +1,20 @@
-# Node / React
+﻿# Node / React
 node_modules/
-dist/
 build/
+dist/
 .cache/
-.npm/
-coverage/
 *.log
-*.tmp
-.DS_Store
 
-# Env / secrets
+# Env
 .env
+.env.local
 .env.*.local
-*.local
 
-# Editor
+# Backend
+backend/node_modules/
+backend/*.log
+
+# IDE / OS
 .vscode/
 .idea/
-
-# OS
-Thumbs.db
-
-# Backend (Node/Express)
-backend/node_modules/
-backend/logs/
-backend/.env
+.DS_Store
