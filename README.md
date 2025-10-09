@@ -1,13 +1,5 @@
 
 
-![version](https://img.shields.io/badge/version-1.0.1-blue.svg) ![license](https://img.shields.io/badge/license-MIT-blue.svg) [![GitHub issues open](https://img.shields.io/github/issues/creativetimofficial/purity-ui-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/purity-ui-dashboard/issues?q=is%3Aopen+is%3Aissue) [![GitHub issues closed](https://img.shields.io/github/issues-closed-raw/creativetimofficial/purity-ui-dashboard.svg?maxAge=2592000)](https://github.com/creativetimofficial/purity-ui-dashboard/issues?q=is%3Aissue+is%3Aclosed)
-
-![Product Gif](https://i.ibb.co/7NXMZQS/Cover-Purity-Chakra-FREE-Thumbnail.png)
-
-
-
-
-
 # Purity UI Dashboard — RBAC & Tenant Scoping
 
 This document summarizes the changes we made to add **role-based access control (RBAC)**, **feature-flagged menus**, and **role-aware dashboard content** to the Purity UI Dashboard, plus a small **mock API** for local testing.
