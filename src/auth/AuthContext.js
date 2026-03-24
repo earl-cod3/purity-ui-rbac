@@ -2,7 +2,7 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 export const API_BASE =
   process.env.REACT_APP_API_BASE || "http://localhost:4000";
-
+// go
 const AuthCtx = createContext(null);
 //lisence
 /** Exposes { user, loading, setUser } to the app */
