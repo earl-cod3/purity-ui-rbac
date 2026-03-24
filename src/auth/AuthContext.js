@@ -2,14 +2,14 @@ import React, { createContext, useContext, useEffect, useState } from "react";
 
 export const API_BASE =
   process.env.REACT_APP_API_BASE || "http://localhost:4000";
-
+// go
 const AuthCtx = createContext(null);
 //test 
 /** Exposes { user, loading, setUser } to the app */
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);   // {id,name,role,tenant,features:[]}
   const [loading, setLoading] = useState(true);
-
+//becuase
   useEffect(() => {
     (async () => {
       try {
@@ -33,7 +33,7 @@ export function AuthProvider({ children }) {
       }
     })();
   }, []);
-
+//test
   return (
     <AuthCtx.Provider value={{ user, loading, setUser }}>
       {children}
