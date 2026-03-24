@@ -9,7 +9,7 @@ const AuthCtx = createContext(null);
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);   // {id,name,role,tenant,features:[]}
   const [loading, setLoading] = useState(true);
-
+//becuase
   useEffect(() => {
     (async () => {
       try {
