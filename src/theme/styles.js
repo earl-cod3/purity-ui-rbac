@@ -1,5 +1,5 @@
 import { mode } from '@chakra-ui/theme-tools';
-
+//changes
 export const globalStyles = {
 	colors: {
 		gray: {

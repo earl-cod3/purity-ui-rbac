@@ -26,3 +26,4 @@ export default extendTheme(
 	PanelContentComponent, // Panel Content component
 	PanelContainerComponent // Panel Container component
 );
+console.log("PR agent test");
