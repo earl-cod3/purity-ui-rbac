@@ -51,7 +51,7 @@ ReactDOM.render(
             </RequireAuth>
           )}
         />
-
+        //check
         {/* Optional */}
         <Route path={`/rtl`} component={RTLLayout} />
 
