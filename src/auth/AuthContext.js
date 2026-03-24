@@ -4,7 +4,7 @@ export const API_BASE =
   process.env.REACT_APP_API_BASE || "http://localhost:4000";
 
 const AuthCtx = createContext(null);
-//test commit
+//test 
 /** Exposes { user, loading, setUser } to the app */
 export function AuthProvider({ children }) {
   const [user, setUser] = useState(null);   // {id,name,role,tenant,features:[]}
