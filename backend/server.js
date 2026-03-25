@@ -15,7 +15,7 @@ const USERS = {
   "user@demo.test":   { id:"u4", name:"Una User",      role:"USER",   tenant:{id:"t2", name:"Beta Co"},  features:[] },
 };
 const PASSWORD = "pass123";
-//server Tim
+//memory
 // in-memory sessions: sid -> email
 const SESS = new Map();
 const setSession = (res, email) => {
