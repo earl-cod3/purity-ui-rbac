@@ -1,6 +1,6 @@
 
 
-# Purity UI Dashboard — RBAC & Tenant Scoping
+# Purity UI Dashboard — RBAC & Tenant Scoping Advanced
 
 This document summarizes the changes we made to add **role-based access control (RBAC)**, **feature-flagged menus**, and **role-aware dashboard content** to the Purity UI Dashboard, plus a small **mock API** for local testing.
 
